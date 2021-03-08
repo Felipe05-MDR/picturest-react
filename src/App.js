@@ -31,6 +31,7 @@ function App() {
                 <LoginPage />
             }
           </Route>
+          <div>modificacion</div>
           <Route exact path="/">
             <HomePage user={user} />
           </Route>
